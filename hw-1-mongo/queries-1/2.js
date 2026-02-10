@@ -5,4 +5,4 @@ db.getSiblingDB('shop').products.find({"brand": "TechCorp"})
 db.getSiblingDB('shop').products.find({"price": {$lte: 100}})
 
 // Not in stock
-db.getSiblingDB('shop').products.find({"in_stock": false}, {"name": 1, "brand": 1})
+db.getSiblingDB('shop').products.find({"category": "peripherals", "in_stock": false}, {"_id": 0, "name": 1, "brand": 1})
