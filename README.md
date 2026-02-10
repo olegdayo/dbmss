@@ -1,1 +1,1 @@
-# DBMSS Course
+# DBMSs Course
